@@ -26,7 +26,7 @@ class AppController
     public function index(){
         //Consulta a la bbdd
         $busqueda="SELECT * FROM noticias";
-        echo $busqueda;
+     
         $rowset = $this->db->query($busqueda);
         echo "hizo el query";
         //Asigno resultados a un array de instancias del modelo
