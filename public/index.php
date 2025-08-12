@@ -56,9 +56,7 @@ switch($ruta){
     //front-end
     case "":
     case "/":
-        echo "pasa por aqui";
         controller()->index();
-        echo "entra en la app";
         break;
     case "acerca-de":
         controller()->acercade();
