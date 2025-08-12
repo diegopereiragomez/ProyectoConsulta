@@ -1,0 +1,6 @@
+INSERT INTO usuarios VALUES (1,"admin","hash", null,1,1,1);
+INSERT INTO usuarios VALUES (2,"user1","hash", null,1,0,1);
+INSERT INTO usuarios VALUES (3,"user2","hash", null,0,0,1);
+INSERT INTO usuarios VALUES (4,"user3","hash", null,1,1,1);
+INSERT INTO usuarios VALUES (5,"user4","hash", null,1,1,1);
+INSERT INTO usuarios VALUES (6,"user5","hash", null,1,1,1);
